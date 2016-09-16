@@ -25,6 +25,10 @@ h1 {
   text-align: center;
 }
 
+h5 {
+  font-size: 12px;
+}
+
 ul {
     padding-left: 0px;
     padding-right: 0px;
@@ -59,6 +63,22 @@ li a:hover {
 p {
   font-size: 14px;
   line-height: 1.5;
+  text-align: justify;
+  margin-right: 30px;
+  margin-left: 35px;
+}
+
+#textcontact {
+  margin-right: 30px;
+  margin-left: 23px;
+  color: #e05da8;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+#pouet {
+  margin-left: 23px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -82,7 +102,8 @@ footer {
   display: block;
   bottom: 0px;
   background-color: #8D0051;
-  height: 30px;
+  height: 80px;
+  padding-top: 7px;
   width: auto;
 }
 
@@ -92,8 +113,20 @@ footer {
   text-align: justify;
 }
 
+#contactform {
+  margin-left: 23px;
+  margin-left: 35px;
+}
+
+.form-group {
+  margin-right: 35px;
+}
+
 @media (max-width: 968px){
   #blockpage{
     width: auto;
+  }
+  #logo{
+    width:auto;
   }
 }
